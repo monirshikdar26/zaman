@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin-top: 0;
+}
+
+.brandlogo {
+    width: 30px;
+    height: 30px;
+}
+
+.parallax {
+    background-image: url("../image/banner.jpg");
+    /* Set a specific height */
+    min-height: 400px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topdiv {
+    margin-top: 120px;
+}
